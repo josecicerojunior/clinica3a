@@ -13,12 +13,10 @@ header {
   display: flex;
   align-items: center;
 }
-
 .container {
   display: Flex;
   width: 600px;
   height: 100px;
-  background-color: red;
   justify-content: space-between;
 }
 
@@ -39,4 +37,9 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   color: #727272;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
 }
