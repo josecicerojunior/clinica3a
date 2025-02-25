@@ -7,7 +7,7 @@
 header {
   display: flex;
   justify-content: center;
-  height: 120px;
+  height: 100px;
 }
 .logo {
   display: flex;
@@ -16,7 +16,6 @@ header {
 .container {
   display: Flex;
   width: 600px;
-  height: 100px;
   justify-content: space-between;
 }
 
@@ -42,4 +41,15 @@ nav a {
 .menu {
   display: flex;
   align-items: center;
+}
+#banner {
+  background-image: url("https://tinyurl.com/mdbanner");
+  height: 670px;
+  background-image: cover;
+  background-position: center;
+}
+.banner_headLine h1 {
+  color: #ffffff;
+  font-size: 50px;
+  text-shadow: 0px 1px 0px #555555;
 }
