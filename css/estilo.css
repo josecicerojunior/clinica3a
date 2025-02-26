@@ -74,7 +74,9 @@ nav a {
 
 .banner_headLine {
   flex: 1;
-  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .banner_options {
   height: 210px;
