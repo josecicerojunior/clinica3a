@@ -43,13 +43,40 @@ nav a {
   align-items: center;
 }
 #banner {
+  display: flex;
+  justify-content: center;
   background-image: url("https://tinyurl.com/mdbanner");
   height: 670px;
   background-image: cover;
   background-position: center;
 }
+
+.column {
+  flex-direction: column;
+}
+
 .banner_headLine h1 {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 70px;
   text-shadow: 0px 1px 0px #555555;
+  margin: 0;
+  padding: 0;
+  max-width: 350px;
+}
+.banner_headLine h2 {
+  color: #ffffff;
+  font-size: 21px;
+  text-shadow: 0px 1px 0px #555555;
+  margin: 0;
+  padding: 0;
+  max-width: 350px;
+}
+
+.banner_headLine {
+  flex: 1;
+  background-color: green;
+}
+.banner_options {
+  height: 210px;
+  background-color: red;
 }
