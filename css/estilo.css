@@ -80,5 +80,20 @@ nav a {
 }
 .banner_options {
   height: 210px;
-  background-color: red;
+  display: flex;
+}
+.banner1,
+.banner2,
+.banner3 {
+  flex: 1;
+}
+
+.banner1 {
+  background-color: green;
+}
+.banner2 {
+  background-color: purple;
+}
+.banner3 {
+  background-color: yellow;
 }
